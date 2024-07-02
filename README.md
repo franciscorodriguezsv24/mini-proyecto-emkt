@@ -64,3 +64,50 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Installation Requirements
+
+Before you begin, ensure you have met the following requirements:
+
+## Prerequisites
+
+- **Operating System:** Compatible with Windows, macOS, and Linux.
+- **Web Server:** Apache, Nginx, or any other web server.
+- **PHP:** Version 7.4 or later.
+- **Composer:** Dependency Manager for PHP.
+- **Node.js and npm:** For front-end dependencies and build tools.
+- **Database:** MySQL, PostgreSQL, or SQLite.
+
+## Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
+```
+
+### 2. Install PHP Dependencies
+
+```bash
+composer install
+```
+
+### 3. Install JavaScript Dependencies
+```bash
+npm install
+```
+
+### 4.  Set Up Database
+Update the database configuration in your .env file, then run the following command to migrate the database:
+
+```bash
+php artisan migrate
+```
+
+### 5. Serve the Application
+
+```bash
+php artisan serve
+```
+
